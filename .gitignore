@@ -1,0 +1,13 @@
+# Source dataset is third-party and should be downloaded separately.
+code/dataset.txt
+
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+
+# Temporary/generated pipeline output; curated committed outputs live in results/ and figures/
+out/

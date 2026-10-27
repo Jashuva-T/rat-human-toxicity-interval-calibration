@@ -1,0 +1,16 @@
+{
+  "dataset_file": "dataset.txt",
+  "dataset_source": "https://github.com/LuJiangTHU/Acute_Toxicity_FSL (data/dataset.txt), CC-BY 4.0",
+  "base_seed": 20261025,
+  "n_splits": 200,
+  "train_fraction": 0.7,
+  "levels": [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9],
+  "prior": {"m0": [0.0, 1.0], "V0_diag": [10.0, 10.0], "a0": 2.0, "b0_rate": 2.0},
+  "prior_sensitivity_V0_scalar": [1.0, 100.0],
+  "student_t_model": {"nu_grid": [1,2,3,4,5,6,8,10,15,20,30,50,100], "nu_prior": "uniform on grid", "n_iter_splits": 5000, "burn_splits": 1000, "n_iter_tail": 12000, "burn_tail": 2000},
+  "conformal": {"proper_train_fraction": 0.7, "tail_repeats": 200},
+  "tail_central_bands_percentile": [[15,85],[10,90],[20,80],[25,75]],
+  "one_sided_fraction": 0.7,
+  "bootstrap_B": 2000,
+  "ppc_draws": 4000
+}

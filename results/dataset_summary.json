@@ -1,0 +1,63 @@
+{
+ "flow": {
+  "source_compounds": 80081,
+  "rat_oral_LD50": 10190,
+  "rat_oral_LD50_with_any_human_oral_TDLo": 289,
+  "rat_oral_unparsed_smiles": 1,
+  "analysis_n": 289,
+  "duplicate_RTECS_ID": 0,
+  "duplicate_SMILES": 0,
+  "duplicate_InChIKey_connectivity_within_289": 0,
+  "duplicate_InChIKey_connectivity_within_10190": 0,
+  "n_multi_label": 73,
+  "label_patterns": {
+   "man": 78,
+   "women": 75,
+   "human": 63,
+   "man+women": 39,
+   "man+human": 12,
+   "women+human": 11,
+   "man+women+human": 11
+  },
+  "multi_label_sd_median": 0.2780972020520263,
+  "multi_label_range_median": 0.40748532657826786,
+  "multi_label_range_max": 2.3011168719367756
+ },
+ "summary": {
+  "x": {
+   "mean": 2.7415309354699167,
+   "sd": 0.8814823975145216,
+   "median": 2.668489945875455,
+   "q25": 2.1955712597866683,
+   "q75": 3.1414740633567764,
+   "min": 0.8638607913575324,
+   "max": 6.514735308777629
+  },
+  "y": {
+   "mean": 4.249676135532119,
+   "sd": 1.3544358776024692,
+   "median": 4.213293247087548,
+   "q25": 3.342148617957593,
+   "q75": 5.151200069479842,
+   "min": 0.9371058778628885,
+   "max": 8.43436071419198
+  },
+  "y_first": {
+   "mean": 4.2612017352591955,
+   "sd": 1.3834060592537458,
+   "median": 4.288213032090002,
+   "q25": 3.298460069461452,
+   "q75": 5.187964658672509,
+   "min": 0.6195190460521316,
+   "max": 8.43436071419198
+  },
+  "corr_pearson": 0.3046957328888105,
+  "spearman": 0.23482082488167683,
+  "other_x": {
+   "mean": 2.491568310153393,
+   "sd": 0.891966063576218,
+   "median": 2.3350243929077648,
+   "n": 9901
+  }
+ }
+}

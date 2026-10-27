@@ -1,0 +1,7 @@
+SHA-256 of the uploaded source dataset copy used during the local reconstruction:
+9e86489ba0263763ab31130324c7cbd05bd54e2abd46edefe87bc5ad8e5ecd20
+
+The original analysis manifest records a different hash:
+2fddd0ecbe54eac259ecbd9ed15646d131d0225714ac04fb4b7334f2f5dcf9e4
+
+These values have not been reconciled. The raw source dataset is not included in this repository package. Do not replace either hash without documenting the exact file and rerun used to establish it.

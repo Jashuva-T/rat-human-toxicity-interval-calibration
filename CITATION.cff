@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated study once its publication details are available. Do not cite this file as a published article."
+title: "Empirical calibration of Bayesian predictive intervals for cross-species, cross-endpoint oral toxicity translation"
+type: software
+version: 0.1.0
+abstract: "Analysis code and outputs for a proof-of-concept evaluation of predictive-interval calibration using rat oral LD50 and human oral TDLo data."
