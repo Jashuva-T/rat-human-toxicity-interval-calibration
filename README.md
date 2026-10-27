@@ -83,12 +83,24 @@ The included outputs are intended to make the reported analysis inspectable. Pre
 
 ## Citation
 
-Cited in the associated manuscript
+## Citation
+
+If you use this code or reproduce the analyses, please cite the associated manuscript.
+
+**Manuscript:** *Empirical calibration of Bayesian predictive intervals for cross-species, cross-endpoint oral toxicity translation: a proof-of-concept evaluation on 289 rat–human compound pairs.*
+
+Please use the manuscript’s final published bibliographic citation and DOI when available. Until publication details are available, cite the manuscript version associated with this repository.
 
 ## License
 
-No repository-wide license has been assigned yet. The upstream source dataset has its own stated license and attribution requirements; those do not automatically determine the license for the study code. Add the authors' chosen code license before describing the code as open source.
+## License
+
+The original code in this repository is licensed under the **Apache License 2.0**. See the [`LICENSE`](LICENSE) file for the full license text.
+
+The upstream source dataset is subject to its own license, attribution requirements, and terms of use. These remain applicable independently of the license covering this repository’s code. Users are responsible for reviewing and complying with the source dataset’s requirements before redistributing or reusing the data.
 
 ## Contact
 
-For questions about the analysis, contact the corresponding author listed in the associated manuscript.
+## Contact
+
+For questions about the study, analysis methods, or reproducibility, please contact the corresponding author identified in the associated manuscript.
